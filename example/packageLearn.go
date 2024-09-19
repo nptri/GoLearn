@@ -1,10 +1,10 @@
-package main
+package example
 
 import (
 	"fmt"
 	"strings"
 )
-import cust "src/custompackage"
+import cust "custompackage"
 
 // import cust "src/custompackage" //set cust as namespace for custom import
 
