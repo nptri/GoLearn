@@ -1,9 +1,9 @@
-package main
+package mainfolder
 
-import "fmt"
-import cust "github.com/nptri/GoLearn/example"
-import custFunc "github.com/nptri/GoLearn/custompackage"
+import cust "github.com/nptri/GoLearn/custompackage"
+import custFunc "github.com/nptri/GoLearn/example"
 
 func main() {
-	cust.typeCasting()
+	custFunc.typeCasting()
+	cust.AddFunc(2, 3)
 }
