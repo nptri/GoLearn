@@ -1,4 +1,4 @@
-package testfunction
+package example
 
 import "fmt"
 
