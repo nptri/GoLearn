@@ -1,9 +1,12 @@
 package main
+
 import (
 	"fmt"
 	"strings"
-	"custompackage"
 )
+import cust "src/custompackage"
+
+// import cust "src/custompackage" //set cust as namespace for custom import
 
 
 func main() {
@@ -12,6 +15,6 @@ func main() {
 	upper := strings.ToUpper("golang strings")
 	fmt.Println(upper)
 
-	AddReturnValue := AddFunc(2, 3)
+	AddReturnValue := cust.AddFunc(2, 3)
 	fmt.Println(AddReturnValue)
 }
