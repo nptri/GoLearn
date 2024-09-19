@@ -15,3 +15,4 @@ jobs:
       - run: cd mainFolder
       - run: ls -al
       - run: go run main.go
+        working-directory: ./mainFolder
