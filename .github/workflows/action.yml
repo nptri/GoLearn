@@ -14,4 +14,6 @@ jobs:
       - run: ls -al 
       - run: cd ./main
       - run: ls -al
+      - run: cd ./main
+      - run: ls -al
       - run: go run main.go
