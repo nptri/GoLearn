@@ -13,3 +13,4 @@ jobs:
       - run: go mod download
       - run: cd main
       - run: go run main.go
+      - run: ls -al
