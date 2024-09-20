@@ -1,4 +1,4 @@
-package example
+package examplepackage
 import "fmt"
 //Anonymous function with parameters
 // var (

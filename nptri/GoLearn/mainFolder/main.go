@@ -1,9 +1,9 @@
 package mainfolder
 
-import cust "github.com/nptri/GoLearn/custompackage"
-import custFunc "github.com/nptri/GoLearn/example"
+import cust "nptri/GoLearn/custompackage"
+import "nptri/GoLearn/examplepackage"
 
 func main() {
-	custFunc.typeCasting()
+	examplepackage.typeCasting()
 	cust.AddFunc(2, 3)
 }
