@@ -10,9 +10,5 @@ jobs:
       - uses: actions/setup-go@v5
         with: 
           go-version: '^1.23.1'
-      - run: go mod download
-      - run: ls -al 
-      - run: cd mainFolder
-      - run: ls -al
       - run: go run main.go
         working-directory: ./mainFolder
