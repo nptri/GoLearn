@@ -1,27 +1,27 @@
-package main
+package examplepackage
 
 import (
 	"fmt"
 )
 
 //A simple function
-func simpleFunction() {
+func SimpleFunction() {
 	fmt.Println("hello world")
 }
 //A function with Params
-func functionWithParameters(x int, y int) {
+func FunctionWithParameters(x int, y int) {
 	total := 0
 	total = x + y
 	fmt.Println(total)
 }
 //A function with Types return
-func functionWithTypes(x float32, y float32) float32 {
+func FunctionWithTypes(x float32, y float32) float32 {
 	var total float32
 	total = x + y 
 	return total
 }
 //A function with a return named value
-func functionWithNamedValue(x float32, y float32) (area float32)  {
+func FunctionWithNamedValue(x float32, y float32) (area float32)  {
 	area = x * y
 	return area
 }

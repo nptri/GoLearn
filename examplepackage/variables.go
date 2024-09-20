@@ -1,4 +1,4 @@
-package main
+package examplepackage
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 const s string = "constant"
 
-func variablesName() {
+func VariablesName() {
 	var a = "initial"
 	fmt.Println(a)
 

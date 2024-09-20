@@ -1,4 +1,4 @@
-package main
+package examplepackage
 import "fmt"
 //Anonymous function with parameters
 // var (
@@ -7,7 +7,7 @@ import "fmt"
 // 	}
 // )
 
-func advanceFunctions() {
+func AdvanceFunctions() {
 	// fmt.Println("area is:", area(5, 10))
 	fmt.Printf("Area is: %.1f",
 		func(coorX float32, coorY float32) (area float32) {

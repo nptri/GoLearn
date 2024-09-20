@@ -1,10 +1,10 @@
-package main
+package examplepackage
 
 import (
 	"fmt"
 )
 
-func pointerProg() {
+func PointerProg() {
 	//Declare a pointer
 	var PointerTo *int
 

@@ -1,10 +1,10 @@
-package main
+package examplepackage
 
 import (
 	"fmt"
 )
 
-func switchCase() {
+func SwitchCase() {
 	// var today = time.Now()
 	var today = 20
 	switch today {
