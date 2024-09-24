@@ -16,8 +16,7 @@ func FunctionWithParameters(x int, y int) {
 }
 //A function with Types return
 func FunctionWithTypes(x float32, y float32) float32 {
-	var total float32
-	total = x + y 
+	var total = x + y 
 	return total
 }
 //A function with a return named value
@@ -29,7 +28,6 @@ func FunctionWithNamedValue(x float32, y float32) (area float32)  {
 func DereferenceFunction(x *int, y *string){
 	*x = *x + 5
 	*y = *y + " check"
-	return
 }
 func BasicFunction() {
 	// simpleFunction()
