@@ -8,6 +8,6 @@ func ArrayLearn () {
 	arraysDemo[2] = "and"
 	arraysDemo[3] = "TriNguyen"
 	for i := 0; i < 4; i++ {
-		fmt.Print(arraysDemo[i], " ")
+		fmt.Println(arraysDemo[i], " ")
 	}
 }
